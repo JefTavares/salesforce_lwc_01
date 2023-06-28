@@ -13,8 +13,12 @@ export default class MyFirstLwc extends LightningElement {
       //window.alert("name by let:" + name);
     }
 
-    let callmyFunction = myFunction(10, 2);
-    window.alert(callmyFunction);
+    let callmyFunction = this.myFunction(10, 2);
+    window.alert("callmyFunction" + callmyFunction);
+  }
+
+  myFunction(dividend, divisor) {
+    return dividend / divisor;
   }
 
   handleClick() {
@@ -30,9 +34,5 @@ export default class MyFirstLwc extends LightningElement {
     });
 
     this.dispatchEvent(event);
-  }
-
-  myFunction(dividend, divisor) {
-    return dividend / divisor;
   }
 }

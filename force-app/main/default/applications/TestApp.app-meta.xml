@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>images</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Aplicativo para testar páginas, funcionalidades e etcs</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>TestApp</label>
+    <navType>Console</navType>
+    <tabs>Cricketers</tabs>
+    <tabs>Players__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>TestApp_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Cricketers</tab>
+        </mappings>
+        <mappings>
+            <tab>Players__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

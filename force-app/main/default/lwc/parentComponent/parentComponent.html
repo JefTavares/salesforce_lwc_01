@@ -1,0 +1,14 @@
+<template>
+  <lightning-card title="Parent Card">
+    <!--Utiliza o lwc childComponent, só informar c-[nomecomponent] 
+        <c-child-component item-name="Parent Salesforce jeferson"
+        E também seta a variavel (property) item-name(itemName no js) do childComponent
+    -->
+    <c-child-component></c-child-component>
+    <lightning-button
+      variant="brand"
+      label="submit"
+      onclick={handleClick}
+    ></lightning-button>
+  </lightning-card>
+</template>

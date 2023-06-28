@@ -1,0 +1,22 @@
+<template>
+  <lightning-card title="Full Name">
+    <lightning-input
+      name="firstName"
+      label="First Name"
+      onchange={handleChange}
+    ></lightning-input>
+    <lightning-input
+      name="lastName"
+      label="Last Name"
+      onchange={handleChange}
+    ></lightning-input>
+  </lightning-card>
+
+  <lightning-card title="Update changed value">
+    <h1>
+      Update first name: <b>{fullName.firstName} </b>
+      <br />
+      Update last name: <b>{fullName.lastName} </b>
+    </h1>
+  </lightning-card>
+</template>
